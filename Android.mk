@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),m1721)
+ifeq ($(TARGET_DEVICE),bicot)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libts_detected_face_hal
