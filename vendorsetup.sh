@@ -1,1 +1,1 @@
-add_lunch_combo full_bicot-userdebug
+add_lunch_combo full_bicot-eng
