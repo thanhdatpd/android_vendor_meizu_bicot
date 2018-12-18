@@ -94,17 +94,17 @@ ifeq ($(KERNEL_ARCH),arm64)
 endif
 
 # Clear this first to prevent accidental poisoning from env
-KERNEL_MAKE_FLAGS :=
+#KERNEL_MAKE_FLAGS :=
 
-ifeq ($(KERNEL_ARCH),arm)
+##ifeq ($(KERNEL_ARCH),arm)
   # Avoid "Unknown symbol _GLOBAL_OFFSET_TABLE_" errors
-  KERNEL_MAKE_FLAGS += CFLAGS_MODULE="-fno-pic"
-endif
+#  KERNEL_MAKE_FLAGS += CFLAGS_MODULE="-fno-pic"
+#endif
 
-ifeq ($(KERNEL_ARCH),arm64)
+##ifeq ($(KERNEL_ARCH),arm64)
   # Avoid "unsupported RELA relocation: 311" errors (R_AARCH64_ADR_GOT_PAGE)
-  KERNEL_MAKE_FLAGS += CFLAGS_MODULE="-fno-pic"
-endif
+ # KERNEL_MAKE_FLAGS += CFLAGS_MODULE="-fno-pic"
+#endif
 
 ifeq ($(HOST_OS),darwin)
   KERNEL_MAKE_FLAGS += C_INCLUDE_PATH=$(BUILD_TOP)/external/elfutils/libelf:/usr/local/opt/openssl/include
