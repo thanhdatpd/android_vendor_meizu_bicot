@@ -6,13 +6,13 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/framework,system/framework) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/lib,system/lib) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/lib64,system/lib64) \
-    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/bin,vendor/bin) \
-    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/etc,vendor/etc) \
-    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/firmware,vendor/firmware) \
-    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/framework,vendor/framework) \
-    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/lib,vendor/lib) \
-    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/lib64,vendor/lib64) \
-    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/radio,vendor/radio)
+    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/bin,$(TARGET_COPY_OUT_VENDOR)/bin) \
+    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/etc,$(TARGET_COPY_OUT_VENDOR)/etc) \
+    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/firmware,$(TARGET_COPY_OUT_VENDOR)/firmware) \
+    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/framework,$(TARGET_COPY_OUT_VENDOR)/framework) \
+    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/lib,$(TARGET_COPY_OUT_VENDOR)/lib) \
+    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/lib64,$(TARGET_COPY_OUT_VENDOR)/lib64) \
+    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/radio,$(TARGET_COPY_OUT_VENDOR)/radio)
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
