@@ -15,6 +15,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/radio,$(TARGET_COPY_OUT_VENDOR)/radio)
 
 PRODUCT_PACKAGES += \
+    libpower \
+    libpowermanager \
     libqdMetaData \
     libhardware \
     libinputflinger \
