@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/radio,$(TARGET_COPY_OUT_VENDOR)/radio)
 
 PRODUCT_PACKAGES += \
+    libqdutils \
     libtinyalsa \
     libts_detected_face_hal \
     libts_face_beautify_hal \
