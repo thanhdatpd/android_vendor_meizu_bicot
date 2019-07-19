@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libqdMetaData \
+    libjson \
     libqsap_sdk \
     libQWiFiSoftApCfg \
     libqdutils \
