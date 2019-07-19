@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libqdMetaData \
+    libwifi-service \
     libwpa_client \
     librmnetctl \
     libjson \
