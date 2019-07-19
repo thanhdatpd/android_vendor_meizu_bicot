@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libqdMetaData \
     libhardware \
+    libinputflinger \
     libhardware_legacy \
     libwifi-service \
     libwpa_client \
