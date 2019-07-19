@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libqdMetaData \
+    libQWiFiSoftApCfg \
     libqdutils \
     libtinyalsa \
     libts_detected_face_hal \
