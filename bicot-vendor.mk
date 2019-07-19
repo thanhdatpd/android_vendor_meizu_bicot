@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libpower \
-    libpowermanager \
+    #libpowermanager \
     libqdMetaData \
     libhardware \
     libinputflinger \
