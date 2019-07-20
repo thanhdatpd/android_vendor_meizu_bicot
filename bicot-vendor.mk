@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libpower \
+    libwifi-hal-qcom \
     libpowermanager \
     libqdMetaData \
     libhardware \
