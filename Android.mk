@@ -22,7 +22,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libtinyalsa.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libtinyalsa.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -35,7 +34,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libqdutils.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -47,7 +45,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libqdMetaData.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libqdMetaData.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -60,7 +57,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libQWiFiSoftApCfg.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libQWiFiSoftApCfg.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -74,7 +70,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libqsap_sdk.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libqsap_sdk.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -85,7 +80,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libjson.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libjson.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -96,7 +90,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/librmnetctl.so
 LOCAL_SRC_FILES_32 := proprietary/lib/librmnetctl.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -107,7 +100,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libwpa_client.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libwpa_client.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -119,7 +111,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhardware.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhardware.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -130,7 +121,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libhardware_legacy.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libhardware_legacy.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -141,7 +131,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libinputflinger.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libinputflinger.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -152,7 +141,6 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libpowermanager.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libpowermanager.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
@@ -163,28 +151,25 @@ LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libpower.so
 LOCAL_SRC_FILES_32 := proprietary/lib/libpower.so
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi-hal-qcom
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi-hal-qcom.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwifi-hal-qcom
-LOCAL_MODULE_OWNER := meizu
 LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi-hal-qcom.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := STATIC_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
 include $(PREBUILT_STATIC_LIBRARY)
+
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libwifi-hal-qcom
+#LOCAL_MODULE_OWNER := meizu
+##LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi-hal-qcom.so
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .so
+#include $(BUILD_PREBUILT)
+
+
 
 
 
