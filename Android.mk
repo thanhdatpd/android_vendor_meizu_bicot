@@ -93,16 +93,8 @@ LOCAL_MULTILIB := both
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
+#libwpa_client
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwpa_client
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libwpa_client.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libwpa_client.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
 
 #libwifi-service
 include $(CLEAR_VARS)
