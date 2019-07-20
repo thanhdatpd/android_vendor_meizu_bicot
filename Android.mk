@@ -184,7 +184,7 @@ LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi-hal-qcom.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := STATIC_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+include $(PREBUILT_STATIC_LIBRARY)
 
 
 
