@@ -15,6 +15,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/radio,$(TARGET_COPY_OUT_VENDOR)/radio)
 
 PRODUCT_PACKAGES += \
+    libqservice \
+    wifi-service \
     libpower \
     libwifi-hal-qcom \
     libpowermanager \

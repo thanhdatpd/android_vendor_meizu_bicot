@@ -27,8 +27,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqdutils
 LOCAL_MODULE_OWNER := meizu
@@ -39,7 +37,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqdMetaData
@@ -52,8 +49,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libQWiFiSoftApCfg
 LOCAL_MODULE_OWNER := meizu
@@ -64,9 +59,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-
-
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqsap_sdk
@@ -90,8 +82,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := librmnetctl
 LOCAL_MODULE_OWNER := meizu
@@ -102,9 +92,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-
-
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwpa_client
@@ -118,7 +105,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 #libwifi-service
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhardware
@@ -142,9 +128,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-
-
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libinputflinger
 LOCAL_MODULE_OWNER := meizu
@@ -155,8 +138,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libpowermanager
@@ -169,8 +150,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libpower
 LOCAL_MODULE_OWNER := meizu
@@ -182,7 +161,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libwifi-hal-qcom
 LOCAL_MODULE_OWNER := meizu
@@ -191,7 +169,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := wpa_cli
@@ -217,7 +194,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libnetdaidl
 LOCAL_MODULE_OWNER := meizu
@@ -237,6 +213,53 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
+
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqservice
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqservice.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqservice.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := wifi-service
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES := proprietary/framework/wifi-service.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
