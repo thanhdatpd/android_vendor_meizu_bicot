@@ -27,49 +27,49 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libqdutils
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libqdutils.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := libqdutils
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
+#OCAL_SRC_FILES_32 := proprietary/lib/libqdutils.so
+#OCAL_MULTILIB := both
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := SHARED_LIBRARIES
+#OCAL_MODULE_SUFFIX := .so
+#nclude $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libqdMetaData
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libqdMetaData.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libqdMetaData.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := libqdMetaData
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES_64 := proprietary/lib64/libqdMetaData.so
+#OCAL_SRC_FILES_32 := proprietary/lib/libqdMetaData.so
+#OCAL_MULTILIB := both
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := SHARED_LIBRARIES
+#OCAL_MODULE_SUFFIX := .so
+#nclude $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libQWiFiSoftApCfg
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libQWiFiSoftApCfg.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libQWiFiSoftApCfg.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libQWiFiSoftApCfg
+#LOCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES_64 := proprietary/lib64/libQWiFiSoftApCfg.so
+#OCAL_SRC_FILES_32 := proprietary/lib/libQWiFiSoftApCfg.so
+#OCAL_MULTILIB := both
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := SHARED_LIBRARIES
+#OCAL_MODULE_SUFFIX := .so
+#nclude $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libqsap_sdk
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libqsap_sdk.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libqsap_sdk.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := libqsap_sdk
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES_64 := proprietary/lib64/libqsap_sdk.so
+#OCAL_SRC_FILES_32 := proprietary/lib/libqsap_sdk.so
+#OCAL_MULTILIB := both
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := SHARED_LIBRARIES
+#OCAL_MODULE_SUFFIX := .so
+#nclude $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libjson
@@ -82,27 +82,27 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := librmnetctl
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/librmnetctl.so
-LOCAL_SRC_FILES_32 := proprietary/lib/librmnetctl.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := librmnetctl
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES_64 := proprietary/lib64/librmnetctl.so
+#OCAL_SRC_FILES_32 := proprietary/lib/librmnetctl.so
+#OCAL_MULTILIB := both
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := SHARED_LIBRARIES
+#OCAL_MODULE_SUFFIX := .so
+#nclude $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwpa_client
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libwpa_client.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libwpa_client.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := libwpa_client
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES_64 := proprietary/lib64/libwpa_client.so
+#OCAL_SRC_FILES_32 := proprietary/lib/libwpa_client.so
+#OCAL_MULTILIB := both
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := SHARED_LIBRARIES
+#OCAL_MODULE_SUFFIX := .so
+#nclude $(BUILD_PREBUILT)
 
 #libwifi-service
 
@@ -161,30 +161,30 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwifi-hal-qcom
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libwifi-hal-qcom.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := libwifi-hal-qcom
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES_64 := proprietary/lib64/libwifi-hal-qcom.so
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := SHARED_LIBRARIES
+#OCAL_MODULE_SUFFIX := .so
+#nclude $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := wpa_cli
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES := proprietary/bin/wpa_cli
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := wpa_cli
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES := proprietary/bin/wpa_cli
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := EXECUTABLES
+#nclude $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := wpa_supplicant
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES := proprietary/bin/wpa_supplicant
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := wpa_supplicant
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES := proprietary/bin/wpa_supplicant
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := EXECUTABLES
+#nclude $(BUILD_PREBUILT)
 
 #include $(CLEAR_VARS)
 #LOCAL_MODULE := netd
@@ -215,16 +215,16 @@ include $(BUILD_PREBUILT)
 #include $(BUILD_PREBUILT)
 
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libqservice
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libqservice.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libqservice.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := libqservice
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES_64 := proprietary/lib64/libqservice.so
+#OCAL_SRC_FILES_32 := proprietary/lib/libqservice.so
+#OCAL_MULTILIB := both
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := SHARED_LIBRARIES
+#OCAL_MODULE_SUFFIX := .so
+#nclude $(BUILD_PREBUILT)
 
 #include $(CLEAR_VARS)
 #LOCAL_MODULE := gralloc.default
@@ -248,15 +248,15 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := wifi-service
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES := proprietary/framework/wifi-service.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
+#nclude $(CLEAR_VARS)
+#OCAL_MODULE := wifi-service
+#OCAL_MODULE_OWNER := meizu
+#OCAL_SRC_FILES := proprietary/framework/wifi-service.jar
+#OCAL_CERTIFICATE := platform
+#OCAL_MODULE_TAGS := optional
+#OCAL_MODULE_CLASS := JAVA_LIBRARIES
+#OCAL_MODULE_SUFFIX := .jar
+#nclude $(BUILD_PREBUILT)
 
 
 
