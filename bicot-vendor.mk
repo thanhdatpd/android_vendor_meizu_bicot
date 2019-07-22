@@ -24,7 +24,7 @@ PRODUCT_PACKAGES += \
 #    #libpowermanager \
     libqdMetaData \
 #    #libhardware \
-    libinputflinger \
+#    libinputflinger \
 #    #libhardware_legacy \
     libwifi-service \
     libwpa_client \
