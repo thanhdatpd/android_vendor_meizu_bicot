@@ -15,13 +15,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/radio,$(TARGET_COPY_OUT_VENDOR)/radio)
 
 PRODUCT_PACKAGES += \
-    libqservice \
-    libmemalloc \
-    gralloc.msm8953 \
-    wifi-service \
-    libwifi-service \
-    libwpa_client \
-    librmnetctl \
     libjson \
     libqsap_sdk \
     libQWiFiSoftApCfg \
@@ -63,3 +56,10 @@ PRODUCT_PACKAGES += \
 #    #libhardware \
 #    libinputflinger \
 #    #libhardware_legacy \
+#    libqservice \
+ #   libmemalloc \
+#    gralloc.msm8953 \
+#    wifi-service \
+#    libwifi-service \
+#    libwpa_client \
+#    librmnetctl \
