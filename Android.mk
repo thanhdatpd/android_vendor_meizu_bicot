@@ -186,13 +186,13 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := netd
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES := proprietary/bin/netd
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := netd
+#LOCAL_MODULE_OWNER := meizu
+#LOCAL_SRC_FILES := proprietary/bin/netd
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := EXECUTABLES
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libnetdaidl
