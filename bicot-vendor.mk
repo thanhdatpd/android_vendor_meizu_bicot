@@ -19,9 +19,9 @@ PRODUCT_PACKAGES += \
     gralloc.default \
     gralloc.msm8953 \
     wifi-service \
-    libpower \
+    #libpower \
     libwifi-hal-qcom \
-    libpowermanager \
+    #libpowermanager \
     libqdMetaData \
     #libhardware \
     libinputflinger \
