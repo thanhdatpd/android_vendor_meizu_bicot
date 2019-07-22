@@ -19,13 +19,6 @@ PRODUCT_PACKAGES += \
     libmemalloc \
     gralloc.msm8953 \
     wifi-service \
-# #   #libpower \
-    libwifi-hal-qcom \
-#    #libpowermanager \
-    libqdMetaData \
-#    #libhardware \
-#    libinputflinger \
-#    #libhardware_legacy \
     libwifi-service \
     libwpa_client \
     librmnetctl \
@@ -62,3 +55,11 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     qti-telephony-common
+
+# #   #libpower \
+#    libwifi-hal-qcom \
+#    #libpowermanager \
+#    libqdMetaData \
+#    #libhardware \
+#    libinputflinger \
+#    #libhardware_legacy \
