@@ -16,16 +16,16 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libqservice \
-    #gralloc.default \
+#    gralloc.default \
     gralloc.msm8953 \
     wifi-service \
-    #libpower \
+# #   #libpower \
     libwifi-hal-qcom \
-    #libpowermanager \
+#    #libpowermanager \
     libqdMetaData \
-    #libhardware \
+#    #libhardware \
     libinputflinger \
-    #libhardware_legacy \
+#    #libhardware_legacy \
     libwifi-service \
     libwpa_client \
     librmnetctl \
