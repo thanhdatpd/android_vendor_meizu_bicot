@@ -16,6 +16,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libqservice \
+    gralloc.default \
+    gralloc.msm8953 \
     wifi-service \
     libpower \
     libwifi-hal-qcom \
