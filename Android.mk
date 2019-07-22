@@ -150,16 +150,16 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_SUFFIX := .so
 #include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libmemalloc
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libmemalloc.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libmemalloc.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libmemalloc
+#LOCAL_MODULE_OWNER := meizu
+#LOCAL_SRC_FILES_64 := proprietary/lib64/libmemalloc.so
+#LOCAL_SRC_FILES_32 := proprietary/lib/libmemalloc.so
+#LOCAL_MULTILIB := both
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .so
+#include $(BUILD_PREBUILT)
 
 #nclude $(CLEAR_VARS)
 #OCAL_MODULE := libwifi-hal-qcom
@@ -237,16 +237,16 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_SUFFIX := .so
 #include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := gralloc.msm8953
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/hw/gralloc.msm8953.so
-LOCAL_SRC_FILES_32 := proprietary/lib/hw/gralloc.msm8953.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := gralloc.msm8953
+#LOCAL_MODULE_OWNER := meizu
+#LOCAL_SRC_FILES_64 := proprietary/lib64/hw/gralloc.msm8953.so
+#LOCAL_SRC_FILES_32 := proprietary/lib/hw/gralloc.msm8953.so
+#LOCAL_MULTILIB := both
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .so
+#include $(BUILD_PREBUILT)
 
 #nclude $(CLEAR_VARS)
 #OCAL_MODULE := wifi-service
