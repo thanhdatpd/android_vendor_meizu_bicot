@@ -23,9 +23,9 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     libpowermanager \
     libqdMetaData \
-    libhardware \
+    #libhardware \
     libinputflinger \
-    libhardware_legacy \
+    #libhardware_legacy \
     libwifi-service \
     libwpa_client \
     librmnetctl \
