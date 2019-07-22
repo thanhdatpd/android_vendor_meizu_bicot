@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libqservice \
-#    gralloc.default \
+    libmemalloc \
     gralloc.msm8953 \
     wifi-service \
 # #   #libpower \
