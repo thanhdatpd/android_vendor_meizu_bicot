@@ -106,27 +106,27 @@ include $(BUILD_PREBUILT)
 
 #libwifi-service
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libhardware
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libhardware.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libhardware.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libhardware
+#LOCAL_MODULE_OWNER := meizu
+#LOCAL_SRC_FILES_64 := proprietary/lib64/libhardware.so
+#LOCAL_SRC_FILES_32 := proprietary/lib/libhardware.so
+#LOCAL_MULTILIB := both
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .so
+#include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libhardware_legacy
-LOCAL_MODULE_OWNER := meizu
-LOCAL_SRC_FILES_64 := proprietary/lib64/libhardware_legacy.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libhardware_legacy.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := libhardware_legacy
+#LOCAL_MODULE_OWNER := meizu
+#LOCAL_SRC_FILES_64 := proprietary/lib64/libhardware_legacy.so
+#LOCAL_SRC_FILES_32 := proprietary/lib/libhardware_legacy.so
+#LOCAL_MULTILIB := both
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .so
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libinputflinger
