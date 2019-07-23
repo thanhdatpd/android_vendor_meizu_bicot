@@ -84,17 +84,41 @@ LensInfo : Information of the lens present in the module.
 -->
 
 <CameraConfigurationRoot>
-
-<CameraModuleConfig>
+  <CameraModuleConfig> 
     <CameraId>0</CameraId>
-    <SensorName>ov12a10</SensorName>
-    <ActuatorName>dw9763_ofilm_ov12a10</ActuatorName>
-    <EepromName>ofilm_ov12a10</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>ov12a10_ofilm_chromatix</ChromatixName>
+    <SensorName>imx362</SensorName>
+    <ActuatorName>ak7371</ActuatorName>
+    <EepromName>gt24c64a_imx362_s5k2l7</EepromName>
+    <FlashName>i2c</FlashName>
+    <ChromatixName>imx362_chromatix_bear</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
-    <MountAngle>360</MountAngle>
+    <MountAngle>90</MountAngle> 
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign> 
+      <ComboMode>0</ComboMode> 
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.94</FocalLength>
+      <FNumber>1.9</FNumber>
+      <TotalFocusDistance>3.496</TotalFocusDistance>
+      <HorizontalViewAngle>69.89</HorizontalViewAngle>
+      <VerticalViewAngle>51.7</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>s5k2l7</SensorName>
+    <ActuatorName>lc898217xc</ActuatorName>
+    <EepromName>gt24c64a_imx362_s5k2l7</EepromName>
+    <FlashName>i2c</FlashName>
+    <ChromatixName>s5k2l7_8953_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
       <LaneMask>0x1F</LaneMask>
@@ -102,197 +126,104 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.81</FocalLength>
-      <FNumber>2.2</FNumber>
+      <FocalLength>4.43</FocalLength>
+      <FNumber>2.0</FNumber>
       <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>80.8</HorizontalViewAngle>
-      <VerticalViewAngle>51.6</VerticalViewAngle>
+      <HorizontalViewAngle>60.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
-      <LensType>WIDE</LensType>
     </LensInfo>
   </CameraModuleConfig>
-
   <CameraModuleConfig>
     <CameraId>1</CameraId>
-    <SensorName>ov13880</SensorName>
-    <ActuatorName>dw9763_ofilm_ov13880</ActuatorName>
-    <EepromName>ofilm_ov13880</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>ov13880_ofilm_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>360</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>5.99</FocalLength>
-      <FNumber>2.6</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>47.6</HorizontalViewAngle>
-      <VerticalViewAngle>51.6</VerticalViewAngle>
-      <MinFocusDistance>0.5</MinFocusDistance>
-      <LensType>TELE</LensType>
-    </LensInfo>
-  </CameraModuleConfig>
-
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>ov12a10</SensorName>
-    <ActuatorName>dw9763_ov12a10</ActuatorName>
-    <EepromName>arc_ov12a10</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>ov12a10_arc_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>360</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.81</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>2.64</TotalFocusDistance>
-      <HorizontalViewAngle>66.0</HorizontalViewAngle>
-      <VerticalViewAngle>52.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-      <LensType>WIDE</LensType>
-    </LensInfo>
-  </CameraModuleConfig>
-
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ov13880</SensorName>
-    <ActuatorName>dw9763_ov13880</ActuatorName>
-    <EepromName>arc_ov13880</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>ov13880_arc_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>360</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>5.99</FocalLength>
-      <FNumber>2.6</FNumber>
-      <TotalFocusDistance>6.9</TotalFocusDistance>
-      <HorizontalViewAngle>38.9</HorizontalViewAngle>
-      <VerticalViewAngle>29.5</VerticalViewAngle>
-      <MinFocusDistance>0.5</MinFocusDistance>
-      <LensType>TELE</LensType>
-    </LensInfo>
-  </CameraModuleConfig>
-
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>ov12a10</SensorName>
-    <ActuatorName>dw9763_ofilm_ov12a10</ActuatorName>
-    <EepromName>arc_ofilm_ov12a10</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>ov12a10_arc_ofilm_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>360</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.83</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>2.67</TotalFocusDistance>
-      <HorizontalViewAngle>66.1</HorizontalViewAngle>
-      <VerticalViewAngle>52.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-      <LensType>WIDE</LensType>
-    </LensInfo>
-  </CameraModuleConfig>
-
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ov13880</SensorName>
-    <ActuatorName>dw9763_ofilm_ov13880</ActuatorName>
-    <EepromName>arc_ofilm_ov13880</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>ov13880_arc_ofilm_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>360</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>5.99</FocalLength>
-      <FNumber>2.6</FNumber>
-      <TotalFocusDistance>6.9</TotalFocusDistance>
-      <HorizontalViewAngle>38.8</HorizontalViewAngle>
-      <VerticalViewAngle>29.8</VerticalViewAngle>
-      <MinFocusDistance>0.5</MinFocusDistance>
-      <LensType>TELE</LensType>
-    </LensInfo>
-  </CameraModuleConfig>
-
-<CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>s5k5e8_ofilm</SensorName>
-    <EepromName>ofilm_s5k5e8</EepromName>
-    <ChromatixName>s5k5e8_ofilm_chromatix</ChromatixName>
+    <SensorName>s5k3p8sp03</SensorName>
+    <ChromatixName>s5k3p3sm_chromatix</ChromatixName>
+    <EepromName>gt24c64a_s5k3p8sp03</EepromName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
+    <MountAngle>270</MountAngle> 
     <CSIInfo>
       <CSIDCore>2</CSIDCore>
-      <LaneMask>0x7</LaneMask>
+      <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>2.639</FocalLength>
+      <FocalLength>3.519</FocalLength>
       <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.0</TotalFocusDistance>
-      <HorizontalViewAngle>63.0</HorizontalViewAngle>
-      <VerticalViewAngle>49.2</VerticalViewAngle>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>64.9</HorizontalViewAngle>
+      <VerticalViewAngle>51.6</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-
- <CameraModuleConfig>
-        <CameraId>2</CameraId>
-        <SensorName>ov5675_qtech</SensorName>
-	<EepromName>qtech_ov5675</EepromName>
-        <ChromatixName>ov5675_qtech_chromatix</ChromatixName>
-        <ModesSupported>1</ModesSupported>
-        <Position>FRONT</Position>
-        <MountAngle>270</MountAngle>
-        <CSIInfo>
-          <CSIDCore>2</CSIDCore>
-          <LaneMask>0x7</LaneMask>
-          <LaneAssign>0x4320</LaneAssign>
-          <ComboMode>0</ComboMode>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>s5k4e8</SensorName>
+    <EepromName>gt24c64a_s5k4e8</EepromName>
+    <ChromatixName>s5k4e8_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x2043</LaneAssign>
+      <ComboMode>0</ComboMode>
     </CSIInfo>
-        <LensInfo>
-          <FocalLength>2.46</FocalLength>
-          <FNumber>2.0</FNumber>
-          <TotalFocusDistance>1.97</TotalFocusDistance>
-          <HorizontalViewAngle>62.7</HorizontalViewAngle>
-          <VerticalViewAngle>49.0</VerticalViewAngle>
-          <MinFocusDistance>0.1</MinFocusDistance>
-        </LensInfo>
+    <LensInfo>
+      <FocalLength>2.47</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.98</TotalFocusDistance>
+      <HorizontalViewAngle>70.4</HorizontalViewAngle>
+      <VerticalViewAngle>46.2</VerticalViewAngle> 
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
   </CameraModuleConfig>
-
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>c5490</SensorName>
+    <!--EepromName>sunny_8856</EepromName-->
+    <ChromatixName>c5490_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x2043</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.42</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.98</TotalFocusDistance>
+      <HorizontalViewAngle>74.0</HorizontalViewAngle>
+      <VerticalViewAngle>46.2</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>ov5695</SensorName>
+    <!--EepromName>sunny_8856</EepromName-->
+    <ChromatixName>c5490_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x2043</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.42</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.98</TotalFocusDistance>
+      <HorizontalViewAngle>74.0</HorizontalViewAngle>
+      <VerticalViewAngle>46.2</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
 </CameraConfigurationRoot>
