@@ -38,13 +38,13 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := egl.cfg
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/egl
-LOCAL_SRC_FILES := proprietary/lib/egl/egl.cfg
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := egl.cfg
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := ETC
+#LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/egl
+#LOCAL_SRC_FILES := proprietary/lib/egl/egl.cfg
+#include $(BUILD_PREBUILT)
 
 
 
