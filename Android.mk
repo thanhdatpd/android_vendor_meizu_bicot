@@ -40,16 +40,9 @@ include $(BUILD_PREBUILT)
 
 
 
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := libqdutils
-#LOCAL_MODULE_OWNER := meizu
-#LOCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
-#LOCAL_SRC_FILES_32 := proprietary/lib/libqdutils.so
-#LOCAL_MULTILIB := both
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-#LOCAL_MODULE_SUFFIX := .so
-#include $(BUILD_PREBUILT)
+
+
+##########end use prebuilt lib instead of use android_hardware_qcom_display #################
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := copybit.msm8953
@@ -61,18 +54,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-
-
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := gralloc.default
-#LOCAL_MODULE_OWNER := meizu
-#LOCAL_SRC_FILES_64 := proprietary/lib64/hw/gralloc.default.so
-#LOCAL_SRC_FILES_32 := proprietary/lib/hw/gralloc.default.so
-#LOCAL_MULTILIB := both
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-#LOCAL_MODULE_SUFFIX := .so
-#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := gralloc.msm8953
@@ -95,8 +76,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := hwcomposer.msm8953
@@ -131,18 +110,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := libmemtrack
-#LOCAL_MODULE_OWNER := meizu
-#LOCAL_SRC_FILES_64 := proprietary/lib64/libmemtrack.so
-#LOCAL_SRC_FILES_32 := proprietary/lib/libmemtrackso
-#LOCAL_MULTILIB := both
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-#LOCAL_MODULE_SUFFIX := .so
-#include $(BUILD_PREBUILT)
-
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqdutils
 LOCAL_MODULE_OWNER := meizu
@@ -176,6 +143,8 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
+##########end use prebuilt lib instead of use android_hardware_qcom_display #################
+
 
 
 
