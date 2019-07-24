@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByEfSpn version="1">
+<virtualSpnOverride mccmncspn="20801C le mobile" name="C le mobile"/>
+<virtualSpnOverride mccmncspn="20801NRJ Mobile" name="NRJ Mobile"/>
+<virtualSpnOverride mccmncspn="20810A MOBILE" name="A MOBILE"/>
+<virtualSpnOverride mccmncspn="20810AfoneMobile" name="Afone"/>
+<virtualSpnOverride mccmncspn="20810C le mobile" name="NRJ"/>
+<virtualSpnOverride mccmncspn="20810La Poste Mobile" name="La Poste Mobile"/>
+<virtualSpnOverride mccmncspn="20810NRJ Mobile" name="NRJ"/>
+<virtualSpnOverride mccmncspn="20810Simplicime" name="Simplicime"/>
+<virtualSpnOverride mccmncspn="20810CIC Mobile" name="NRJ Mobile"/>
+<virtualSpnOverride mccmncspn="20826NRJ Mobile" name="NRJ Mobile"/>
+<virtualSpnOverride mccmncspn="20826" name="NRJ Mobile"/>
+</virtualSpnOverridesByEfSpn>
