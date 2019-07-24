@@ -51,13 +51,134 @@ include $(BUILD_PREBUILT)
 #LOCAL_MODULE_SUFFIX := .so
 #include $(BUILD_PREBUILT)
 
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := egl.cfg
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := ETC
-#LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/egl
-#LOCAL_SRC_FILES := proprietary/lib/egl/egl.cfg
-#include $(BUILD_PREBUILT)
+include $(CLEAR_VARS)
+LOCAL_MODULE := copybit.msm8953
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/copybit.msm8953.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/copybit.msm8953.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := gralloc.default
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/gralloc.default.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/gralloc.default.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := gralloc.msm8953
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/gralloc.msm8953.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/gralloc.msm8953.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmemalloc
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libmemalloc.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libmemalloc.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+hwcomposer.msm8953
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := hwcomposer.msm8953
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/hwcomposer.msm8953.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/hwcomposer.msm8953.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := lights.msm8953
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/lights.msm8953.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/lights.msm8953.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := memtrack.msm8953
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/hw/memtrack.msm8953.so
+LOCAL_SRC_FILES_32 := proprietary/lib/hw/memtrack.msm8953.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmemtrack
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libmemtrack.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libmemtrackso
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqdutils
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqdutils
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqdMetaData
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqdMetaData.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqdMetaData.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqservice
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqservice.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqservice.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+
+
 
 
 
