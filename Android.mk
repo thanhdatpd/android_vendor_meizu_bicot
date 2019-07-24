@@ -96,7 +96,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-hwcomposer.msm8953
+
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := hwcomposer.msm8953
