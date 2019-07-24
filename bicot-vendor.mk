@@ -17,24 +17,24 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson \
     libqsap_sdk \
-    libQWiFiSoftApCfg \
+    #libQWiFiSoftApCfg \
     libqdutils \
     libtinyalsa \
-    libts_detected_face_hal \
-    libts_face_beautify_hal \
-    vendor.qti.hardware.fm@1.0 \
-    com.quicinc.cne.api@1.0 \
-    com.quicinc.cne.constants@1.0 \
-    com.quicinc.cne.constants@2.0 \
-    com.quicinc.cne.server@1.0 \
-    com.quicinc.cne.server@2.0 \
-    libaudio_log_utils \
+   # libts_detected_face_hal \
+    #libts_face_beautify_hal \
+    #vendor.qti.hardware.fm@1.0 \
+    #com.quicinc.cne.api@1.0 \
+    #com.quicinc.cne.constants@1.0 \
+    #com.quicinc.cne.constants@2.0 \
+   # com.quicinc.cne.server@1.0 \
+    #com.quicinc.cne.server@2.0 \
+   # libaudio_log_utils \
     libbtnv \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
     libloc_api_v02 \
-    QtiTelephonyService \
+    #QtiTelephonyService \
     SimSettings \
     ims \
     imssettings \
@@ -43,11 +43,11 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     QtiTelephonyServicelibrary \
-    com.quicinc.cne.api-V1.0-java \
-    com.quicinc.cne \
+    #com.quicinc.cne.api-V1.0-java \
+    #com.quicinc.cne \
     qcnvitems \
-    qcrilhook \
-    qti-telephony-common
+    qcrilhook 
+   # qti-telephony-common
 
 # #   #libpower \
 #    libwifi-hal-qcom \
