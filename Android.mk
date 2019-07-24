@@ -147,6 +147,55 @@ include $(BUILD_PREBUILT)
 
 
 
+##########end use prebuilt lib instead of use android_system_netd #################
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnetd_client
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libnetd_client.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libnetd_client.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnetdaidl
+LOCAL_MODULE_OWNER := meizu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libnetdaidl.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := netd
+LOCAL_SRC_FILES := proprietary/bin/netd
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := ndc
+LOCAL_SRC_FILES := proprietary/bin/ndc
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
