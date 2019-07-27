@@ -1,0 +1,43 @@
+Notice：此txt文件记录mbn ota；
+    
+V01
+   #543003【M1721】【K81721CQ DVT1阶段NV 更新20170526】
+   AA_CMCC_mcfg_sw.mbn 版本号：0x0702209A
+   AA_CT_mcfg_sw.mbn   版本号：0x07011406
+   AA_CU_mcfg_sw.mbn   版本号：0x07011521
+   AA_ROW_mcfg_sw.mbn  版本号：0x07010844
+
+V02
+   bug532281: 【M1721】【通话控制】测试机插入电信卡拨打电话，提示”无法连接到移动网络“
+   /policyman/carrier_policy.xml路径
+   modem_proc\mmcp\policyman\configurations\Carrier\OpenMarket\7+5_mode\CT\1xSRLTE\openMarket\volte\carrier_policy.xml修改为
+   modem_proc\mmcp\policyman\configurations\Carrier\OpenMarket\7+5_mode\CT\1xSRLTE\openMarket\carrier_policy.xml
+   AA_CT_mcfg_sw.mbn   版本号：0x07021408
+   
+   
+V03 bug 556827【M1721】【网络管理】加密手机卡1插入移动卡，卡2插入联通卡，卡2不驻网，卡1只能驻到2G网络
+    重新用MZ KEY签名MBN
+    
+V04 bug556608 【M1721】【网络管理】移动卡通话中网络回落至2G，挂断电话恢复4G网络需要10秒以上 20170701
+    AA_CMCC_mcfg_sw.mbn 版本号：0x0703209C
+
+v05 572435【M1721移动入库版】【flyme6】【DM测试】双卡槽均插入非移动卡，卡一为主卡，在自注册平台上卡二网络类型显示WLAN
+    修改70315 2改为0;重新制作MBN
+    AA_CT_mcfg_sw.mbn   版本号：0x07031408
+
+v06 571113【M1721】【通话控制】卡1插入SIM卡开启来电等待，将SIM卡换到卡2位置，来电等待未开启
+    修改73538 
+    use_ue_based_cw为0  
+    is_enabled为0
+    AA_CMCC_mcfg_sw.mbn 版本号：0x0704209C
+v07 585718【M1721】【M1721M】【移动首版】【电话逻辑】PIN码界面拨打119时会注册到电信网络，挂断电话后未返回PIN码界面可直接操作手机
+    修改73825为0
+    AA_CMCC_mcfg_sw.mbn 版本号：0x0705209C
+    
+v08 14923开启VoLte后，呼出电话对方不接听，振铃30s后挂断
+    nv67281 value 60000
+    AA_CMCC_mcfg_sw.mbn 版本号：0x0706209C
+
+v09 Bug#679757: 【M1721M】【移动出货版】【电话逻辑】联通卡PIN码界面拨打紧急号码会注册到电信网络，挂断电话后未返回PIN码界面可直接操作手机
+    联通mbn nv73825配置成0
+    AA_CU_mcfg_sw.mbn   版本号：0x07031522

@@ -1,0 +1,4 @@
+CA_ROW_mcfg_sw.mbn
+CA_CMCC_mcfg_sw.mbn
+CA_CT_mcfg_sw.mbn
+CA_CU_mcfg_sw.mbn

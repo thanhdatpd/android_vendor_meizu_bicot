@@ -6,6 +6,7 @@
 #
 # Support: https://launchpad.net/mksh
 
+: ${HOSTNAME:=$(getprop ro.cm.device)}
 : ${HOSTNAME:=$(getprop ro.product.device)}
 : ${HOSTNAME:=android}
 : ${TMPDIR:=/data/local/tmp}
@@ -19,3 +20,7 @@ PS4='[$EPOCHREALTIME] '; PS1='${|
 
 	return $e
 }$HOSTNAME:${PWD:-?} '"$PS1 "
+
+if [ "z$ANDROID_SOCKET_adbd" != "z" ]; then
+   resize
+fi

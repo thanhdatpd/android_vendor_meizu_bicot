@@ -1,0 +1,17 @@
+Notice：此txt文件记录mbn ota；
+    
+V01
+   #601098[海外][印尼-泗水][M1721][modem]主卡Smartfren 4G，测试机出现CA图标，产品规格书写不支持CA，故去掉CA功能，时间12101
+   设置ca_disable为1并集成到/nv/item_files/modem/lte/common/ca_disable
+   CA_ROW_mcfg_sw.mbn  版本号：0x07020846
+V02
+   #611184拉美地区Telcel/Movistar/Tigo卡槽一不能注册4G
+   配置NV65633的值为0x000000A0080800DF,该值已配置到EFS中，该版本为临时版本，验证完回退。
+   CA_ROW_mcfg_sw.mbn  版本号：0x07030846
+V03
+   #621246【M1721H】【网络管理】卡1联通，卡2移动主卡，卡2挂断电话后恢复4G信号慢，需要十秒左右
+   集成全网通CT,CMCC,CU的mbn
+   CA_CMCC_mcfg_sw.mbn  版本号：0x0703209C
+   CA_CT_mcfg_sw.mbn  版本号：0x07031408
+   CA_CU_mcfg_sw.mbn  版本号：0x07011521
+   

@@ -1,0 +1,4 @@
+AA2_ROW_mcfg_sw.mbn
+AA2_CMCC_mcfg_sw.mbn
+AA2_CT_mcfg_sw.mbn
+AA2_CU_mcfg_sw.mbn

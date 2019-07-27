@@ -1,0 +1,31 @@
+Notice：此txt文件记录mbn ota；
+    
+V01
+   #543003【M1721】【K81721CQ DVT1阶段NV 更新20170526】
+   BA_CMCC_mcfg_sw.mbn 版本号：0x0702209A
+   BA_CT_mcfg_sw.mbn   版本号：0x07011406
+   BA_CU_mcfg_sw.mbn   版本号：0x07011521
+   BA_ROW_mcfg_sw.mbn  版本号：0x07010844
+   
+   
+V02 bug 556827【M1721】【网络管理】加密手机卡1插入移动卡，卡2插入联通卡，卡2不驻网，卡1只能驻到2G网络
+    重新用MZ KEY签名MBN
+
+V04 bug556608 【M1721】【网络管理】移动卡通话中网络回落至2G，挂断电话恢复4G网络需要10秒以上 20170701
+    BA_CMCC_mcfg_sw.mbn 版本号：0x0702209C
+
+V05 bug 589836 【M1721电信入库】【预测试】【基本能力】【TC-MF_LABTEST-20101】自注册平台收不到终端短信自注册信息
+    配置NV71528 NV71529 NV71530
+    BA_CT_mcfg_sw.mbn   版本号：0x07031408
+
+V06 bug 613618【M1721】【BA1】入库版本关闭VOLTE
+    关闭volte  67218 ims enable 0
+    BA_CT_mcfg_sw.mbn 版本号:0x0701140D
+
+V06 bug616622TC-MF_LABTEST-20101 [必选] 测试机无法进行短信自注册
+    关闭volte  67218 ims enable 0并且配置NV71528 NV71529 NV71530
+    BA_CT_mcfg_sw.mbn 版本号:0x07031409
+
+V07 需求管理 #631587: 【M1721】【电信VOTLE】电信CT入库，打开VOLTE功能
+    打开volte  67218 ims enable 1
+    BA_CT_mcfg_sw.mbn 版本号:0x07041409

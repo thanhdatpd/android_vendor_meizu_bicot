@@ -1,0 +1,4 @@
+BA_ROW_mcfg_sw.mbn
+BA_CMCC_mcfg_sw.mbn
+BA_CT_mcfg_sw.mbn
+BA_CU_mcfg_sw.mbn

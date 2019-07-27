@@ -1,0 +1,68 @@
+Notice：此txt文件记录mbn ota；
+    
+V01
+   #601098[海外][印尼-泗水][M1721][modem]主卡Smartfren 4G，测试机出现CA图标，产品规格书写不支持CA，故去掉CA功能，时间12101
+   设置ca_disable为1并集成到/nv/item_files/modem/lte/common/ca_disable
+   FA_ROW_mcfg_sw.mbn  版本号：0x07020846
+   
+V02  
+   #602145【1721H】【VOLTE】海外版不支持印度VOLTE
+   FA_Reliance_sw.mbn  版本号: 0x07011B45
+
+V03
+   #601097[海外][印尼-泗水][M1721]主卡Smartfren4G，选网到3Gfrist
+   根据SPM需求设置NV67218默认值为0
+   FA_Smartfren_sw.mbn  版本号: 0x07012503
+
+V04 
+   #605616[M1721H][Flyme6.0][海外][Mobilink][巴基斯坦-伊斯兰堡]开启呼叫等待后，通话中测试机接收不到辅助机2的来电
+   FA_ROW_mcfg_sw.mbn  版本号：0x07030846
+   NV73538 
+   use_ue_based_cw改为false
+   is_enabled改为false
+
+V05 
+   #601098[印尼-泗水][M1721][modem]主卡Smartfren 4G，测试机出现CA图标
+   FA_Smartfren_sw.mbn  版本号：0x07022503
+   EFS CA_DISABLE配置
+
+V06
+   #Bug605450单卡3 2G，GSM通话过程中，数据图标“E”不会消失，必现
+   FA_ROW_mcfg_sw.mbn  版本号：0x07040846
+   NV3628 NV4209
+
+v07
+   #601690【M1721H】【网络管理】电信卡不能注4G网络，且优先3G、4G网络模式下都不能使用数据流量
+   FA_CT_mcfg_sw.mbn   版本号：0x07021408
+   海外版集成电信MBN
+
+v08
+   #604307卡1 Telkomsel 3G，卡2 Ooredoo 2G，主卡卡2接通率测试
+   FA_ROW_mcfg_sw.mbn   版本号：0x07050846
+   配置EFS项read_pch_during_transfer_whitelist
+
+v09
+   #601097[海外][印尼-泗水][M1721][modem]主卡Smartfren 4G，选网到3G frist，测试机一直处于脱网状态，不支持CDMA2000
+   FA_Smartfren_sw.mbn  版本号：0x07032503
+   根据高通方案集成Smartfren carrier_policy.xml文件
+
+v10
+   #610473DUT call rejecting message delay to send in 40 second
+   FA_ROW_mcfg_sw.mbn   版本号：0x07060846
+   配置NV3533值为5
+
+v11
+   #615305[VoLTE FT India] [Bangalore]Phone is unable to latch with IMS when Jio 4G sim inserted in SIM slot 2(2017/10/5)
+   修改Reliance NV67259
+   FA_Reliance_sw.mbn  版本号: 0x07021B45
+   
+v12
+   #615401[VoLTE FT India] [Bangalore]Vodafone is not latching with 3G ,its only latching with 2G
+   FA_ROW_mcfg_sw.mbn  版本号：0x07070846
+   根据高通建议修改ROW mbn中SUB2 NV10的值为17（GSM+WCDMA）。
+
+v13
+   #621246【M1721H】【网络管理】卡1联通，卡2移动主卡，卡2挂断电话后恢复4G信号慢，需要十秒左右
+   FA_CMCC_mcfg_sw.mbn   版本号：0x0703209C
+   FA_CU_mcfg_sw.mbn   版本号：0x07011521
+   海外版集成移动联通MBN   

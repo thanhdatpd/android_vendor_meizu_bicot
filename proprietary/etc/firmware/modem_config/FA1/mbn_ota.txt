@@ -1,0 +1,6 @@
+FA_ROW_mcfg_sw.mbn
+FA_Reliance_sw.mbn
+FA_Smartfren_sw.mbn
+FA_CT_mcfg_sw.mbn
+FA_CMCC_mcfg_sw.mbn
+FA_CU_mcfg_sw.mbn
