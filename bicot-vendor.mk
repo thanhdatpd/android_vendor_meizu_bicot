@@ -2,6 +2,7 @@ $(call inherit-product, vendor/meizu/bicot/BoardConfigVendor.mk)
 # SYSTEM FILES
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/bin,system/bin) \
+    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/fonts,system/fonts) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/etc,system/etc) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/framework,system/framework) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/lib,system/lib) \
