@@ -12,8 +12,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/framework,$(TARGET_COPY_OUT_VENDOR)/framework) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/lib,$(TARGET_COPY_OUT_VENDOR)/lib) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/app,$(TARGET_COPY_OUT_VENDOR)/app) \
-   # $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/user,$(TARGET_COPY_OUT_VENDOR)/user) \
-    #$(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/firmware,$(TARGET_COPY_OUT_VENDOR)/firmware) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/lib64,$(TARGET_COPY_OUT_VENDOR)/lib64) 
 
 
