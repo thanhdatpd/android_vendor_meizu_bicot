@@ -12,32 +12,21 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/framework,$(TARGET_COPY_OUT_VENDOR)/framework) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/lib,$(TARGET_COPY_OUT_VENDOR)/lib) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/app,$(TARGET_COPY_OUT_VENDOR)/app) \
-    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/user,$(TARGET_COPY_OUT_VENDOR)/user) \
-    $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/firmware,$(TARGET_COPY_OUT_VENDOR)/firmware) \
+   # $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/user,$(TARGET_COPY_OUT_VENDOR)/user) \
+    #$(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/firmware,$(TARGET_COPY_OUT_VENDOR)/firmware) \
     $(call find-copy-subdir-files,*,vendor/meizu/bicot/proprietary/vendor/lib64,$(TARGET_COPY_OUT_VENDOR)/lib64) 
 
 
 PRODUCT_PACKAGES += \
     libjson \
     libqsap_sdk \
-    #libQWiFiSoftApCfg \
     libqdutils \
     libtinyalsa \
-   # libts_detected_face_hal \
-    #libts_face_beautify_hal \
-    #vendor.qti.hardware.fm@1.0 \
-    #com.quicinc.cne.api@1.0 \
-    #com.quicinc.cne.constants@1.0 \
-    #com.quicinc.cne.constants@2.0 \
-   # com.quicinc.cne.server@1.0 \
-    #com.quicinc.cne.server@2.0 \
-   # libaudio_log_utils \
     libbtnv \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
     libloc_api_v02 \
-    #QtiTelephonyService \
     SimSettings \
     ims \
     imssettings \
@@ -46,23 +35,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     QtiTelephonyServicelibrary \
-    #com.quicinc.cne.api-V1.0-java \
-    #com.quicinc.cne \
     qcnvitems \
     qcrilhook 
-   # qti-telephony-common
-
-# #   #libpower \
-#    libwifi-hal-qcom \
-#    #libpowermanager \
-#    libqdMetaData \
-#    #libhardware \
-#    libinputflinger \
-#    #libhardware_legacy \
-#    libqservice \
- #   libmemalloc \
-#    gralloc.msm8953 \
-#    wifi-service \
-#    libwifi-service \
-#    libwpa_client \
-#    librmnetctl \
+ 
