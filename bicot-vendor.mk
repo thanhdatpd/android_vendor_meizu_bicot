@@ -34,5 +34,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     QtiTelephonyServicelibrary \
     qcnvitems \
+    libtime_genoff \
     qcrilhook 
  
